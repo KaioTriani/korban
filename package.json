@@ -1,0 +1,13 @@
+{
+  "name": "korban-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site demonstrativo Korban com personalização e animações 3D, pronto para hospedagem estática.",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check models.js && node --check server.mjs && node scripts/check.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
